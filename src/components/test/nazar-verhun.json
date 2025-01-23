@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_test_nazar_verhuns",
+  "info": {
+    "displayName": "Nazar Verhun"
+  },
+  "options": {},
+  "attributes": {
+    "Nazar": {
+      "type": "string"
+    }
+  }
+}

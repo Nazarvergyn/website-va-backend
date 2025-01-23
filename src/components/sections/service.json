@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sections_services",
+  "info": {
+    "displayName": "Service"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "serviceName": {
+      "type": "string"
+    },
+    "serviceItem": {
+      "displayName": "Service Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "fields.service-item"
+    },
+    "imgService": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

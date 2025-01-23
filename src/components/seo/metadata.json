@@ -1,0 +1,70 @@
+{
+  "collectionName": "components_seo_metadata",
+  "info": {
+    "displayName": "Metadata",
+    "description": "SEO metadata fields"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string",
+      "required": false
+    },
+    "metaDescription": {
+      "type": "text",
+      "required": false
+    },
+    "metaImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "canonicalURL": {
+      "type": "string",
+      "required": false
+    },
+    "isPublished": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "readingTime": {
+      "type": "integer",
+      "min": 0,
+      "required": false
+    },
+    "ogType": {
+      "type": "enumeration",
+      "enum": [
+        "website",
+        "article",
+        "profile",
+        "book"
+      ],
+      "default": "article",
+      "required": true
+    },
+    "twitterCard": {
+      "type": "enumeration",
+      "enum": [
+        "summary",
+        "summary_large_image",
+        "app",
+        "player"
+      ],
+      "default": "summary_large_image",
+      "required": true
+    },
+    "noIndex": {
+      "type": "boolean",
+      "default": false,
+      "description": "Prevent search engines from indexing this content"
+    },
+    "noFollow": {
+      "type": "boolean",
+      "default": false,
+      "description": "Prevent search engines from following links"
+    }
+  }
+} 

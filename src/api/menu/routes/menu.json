@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/menus",
+      "handler": "menu.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/menus/:id",
+      "handler": "menu.findOne",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+} 

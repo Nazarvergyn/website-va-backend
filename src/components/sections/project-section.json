@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_sections_project_section",
+  "info": {
+    "displayName": "Project Section",
+    "icon": "align-left",
+    "description": "Content sections for projects (Research, Design, Development)"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "research",
+        "design",
+        "development"
+      ],
+      "required": true,
+      "default": "research"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "additionalContent": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+} 

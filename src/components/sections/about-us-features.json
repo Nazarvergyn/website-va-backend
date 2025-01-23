@@ -1,0 +1,76 @@
+{
+  "collectionName": "components_sections_about_us_features",
+  "info": {
+    "displayName": "AboutUsFeatures"
+  },
+  "options": {},
+  "attributes": {
+    "aboutDescription": {
+      "type": "text"
+    },
+    "itemTitle1": {
+      "type": "string"
+    },
+    "itemIMG1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "itemData1": {
+      "type": "string"
+    },
+    "itemTitle2": {
+      "type": "string"
+    },
+    "itemIMG2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "itemData2": {
+      "type": "string"
+    },
+    "itemTitle3": {
+      "type": "string"
+    },
+    "itemIMG3": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "itemData3": {
+      "type": "string"
+    },
+    "itemTitle4": {
+      "type": "string"
+    },
+    "itemIMG4": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "itemData4": {
+      "type": "string"
+    }
+  }
+}

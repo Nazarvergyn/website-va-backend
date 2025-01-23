@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_company_contacts",
+  "info": {
+    "displayName": "Contacts",
+    "description": "Company contact information",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "text"
+    },
+    "workingHours": {
+      "type": "string"
+    }
+  }
+} 

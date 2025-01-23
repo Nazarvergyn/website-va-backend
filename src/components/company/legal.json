@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_company_legal",
+  "info": {
+    "displayName": "Legal",
+    "description": "Company legal information",
+    "icon": "balance-scale"
+  },
+  "options": {},
+  "attributes": {
+    "companyNumber": {
+      "type": "string"
+    },
+    "vatNumber": {
+      "type": "string"
+    },
+    "registeredAddress": {
+      "type": "text"
+    },
+    "termsUrl": {
+      "type": "string",
+      "regex": "^https?://.*"
+    },
+    "privacyUrl": {
+      "type": "string",
+      "regex": "^https?://.*"
+    }
+  }
+} 

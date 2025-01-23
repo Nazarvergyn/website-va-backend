@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_company_social_links",
+  "info": {
+    "displayName": "Social Links",
+    "description": "Company social media links",
+    "icon": "share-alt"
+  },
+  "options": {},
+  "attributes": {
+    "facebook": {
+      "type": "string",
+      "regex": "^https?://.*"
+    },
+    "twitter": {
+      "type": "string",
+      "regex": "^https?://.*"
+    },
+    "linkedin": {
+      "type": "string",
+      "regex": "^https?://.*"
+    },
+    "instagram": {
+      "type": "string",
+      "regex": "^https?://.*"
+    },
+    "github": {
+      "type": "string",
+      "regex": "^https?://.*"
+    }
+  }
+} 
