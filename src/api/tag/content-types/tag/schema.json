@@ -4,13 +4,11 @@
   "info": {
     "singularName": "tag",
     "pluralName": "tags",
-    "displayName": "Tag",
-    "description": "Tags for news and projects"
+    "displayName": "Tag"
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
   "attributes": {
     "name": {
       "type": "string",
@@ -19,23 +17,19 @@
     },
     "slug": {
       "type": "uid",
-      "targetField": "name",
-      "required": true
-    },
-    "description": {
-      "type": "text"
+      "targetField": "name"
     },
     "news": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::news-item.news-item",
-      "inversedBy": "tags"
+      "target": "api::news.news",
+      "mappedBy": "tags"
     },
     "projects": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::project.project",
-      "inversedBy": "tags"
+      "mappedBy": "tags"
     }
   }
 }
